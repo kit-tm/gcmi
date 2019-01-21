@@ -1,1 +1,1 @@
-include 'framework', 'framework:protocols:openflow', 'examples:log_and_discard', 'examples:log_and_forward', 'examples:pbce', 'examples:flowvisor', 'examples:learning_switch', 'examples:payless', 'examples:graph_computation', 'composer'
+include 'framework', 'framework:protocols:openflow', 'examples:log_and_discard', 'examples:log_and_forward', 'examples:pbce', 'examples:flowvisor', 'examples:learning_switch', 'examples:generic_attributes', 'examples:payless', 'examples:graph_computation', 'composer'

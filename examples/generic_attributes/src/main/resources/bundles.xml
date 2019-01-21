@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+  <bundles>
+    <bundle name="Multi" class="com.github.sherter.jcon.examples.generic_attributes.bundles.multi_field.MFBundle"/>
+    <bundle name="Automatic" class="com.github.sherter.jcon.examples.generic_attributes.bundles.automatic.AUBundle"/>
+    <bundle name="Configurable" class="com.github.sherter.jcon.examples.generic_attributes.bundles.configurable.COBundle"/>
+  </bundles>
+</configuration>

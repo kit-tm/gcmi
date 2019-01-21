@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'com.github.sherter.jcon.examples.generic_attributes.interception.Cli'
+
+dependencies {
+    compile project(':framework')
+    compile 'com.beust:jcommander:1.69'
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDirs "src/main/resources"
+        }
+    }
+}
