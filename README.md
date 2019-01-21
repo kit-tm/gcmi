@@ -35,6 +35,9 @@ This repository contains several examples GCMI apps. This list gives a short ove
 - TableVisor
 	- Link: https://github.com/kit-tm/gcmi/blob/master/composer/src/main/java/com/github/sherter/jcon/composer/TableVisorLayer.java
 	- Description: This is a partial re-implemantation of TableVisor (see https://ieeexplore.ieee.org/document/8004108). TableVisor implements an emulation layer that aims to provide switches with n flow tables by aggregating multiple physical switches with < n flow tables.
+- Generic Attribute Tagging
+    - Link: https://github.com/kit-tm/gcmi/blob/master/examples/generic_attributes/src/main/java/com/github/sherter/jcon/examples/generic_attributes/interception/MessageInterceptor.java
+    - Description: An exemplary app that simplified attribute tagging for SDN controller apps by translating high-level tagging rules into existing tag representations inside a packet's header fields. The implementation was part of the Master's Thesis of David Koerver with the title: 'Generic and Transparent Attribute Tagging in Software-defined Networking'. 
 
 There are also several other examples that might not work with the current version of GCMI (not tested).
 
