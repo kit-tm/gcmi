@@ -51,11 +51,9 @@ sudo python3 <python-file.py>
 
 ## Parsing Library
 
-For potential future work with Experimenter functionality, the modified Loxigen library is placed in an archive file in:
+The Loxigen library was used for parsing. Necessary modifications had to be made. It is found in:
 
-gcmi/examples/generic_attributes/library/
-
-When the library is built, it should replace the current library in ma-herter/lib/openflowj-3.5.1-SNAPSHOT.jar.
+gcmi/lib/openflowj-3.5.1-SNAPSHOT.jar.
 
 ## Ryu Mods
 
@@ -73,8 +71,3 @@ The roles of the simulation files are the following:
 - declarations.py: General classes and parameters of the simulation.
 - greedy.py: Greedy selection strategy.
 - probabilistic.py: Optimized strategy.
-- declarations.py: General classes and parameters of the simulation.
-- greedy.py: Greedy selection strategy.
-- probabilistic.py: Optimized strategy.
-
-########################################################################################################################################################
