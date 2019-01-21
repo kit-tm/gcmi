@@ -1,3 +1,7 @@
+## Generic Attribute Tagging
+
+Approach to decouple the use of tagging from its implementation, i.e. selection of header fields and tag encodings, inside the intermediate layer.
+
 ## Prerequisites
 
 - Controller App whose OpenFlow messages are intercepted and transformed
@@ -66,6 +70,9 @@ gcmi/examples/generic_attributes/simulations/
 
 The roles of the simulation files are the following:
 - tag_opt.py: File that should be run to start the simulation.
+- declarations.py: General classes and parameters of the simulation.
+- greedy.py: Greedy selection strategy.
+- probabilistic.py: Optimized strategy.
 - declarations.py: General classes and parameters of the simulation.
 - greedy.py: Greedy selection strategy.
 - probabilistic.py: Optimized strategy.
