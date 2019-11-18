@@ -89,8 +89,9 @@ public class Payless {
       }
       // put in cache for future requests
       stats.put(pendingRequestMatch, flowReply.getEntries());
+    } else {
+      context.sendUpstream(reply);		
     }
-    context.sendUpstream(reply);
   }
 
   public static void main(String[] args) throws IOException, InterruptedException {
